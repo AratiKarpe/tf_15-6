@@ -16,6 +16,3 @@ variable "this_count" {
 variable "this_disable_api_termination" {
     default =  false
 }
-variable "This_instance_type {
-
-}

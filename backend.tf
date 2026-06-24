@@ -11,7 +11,7 @@ terraform {
         bucket = "terraformbatch" 
         key = "terraform.tfstate"
         dynamodb_table ="cbzdb"
-        region "us-east-2"
+        region = "us-east-2"
         profile = "configs"
         shared_credentials_files = ["/home/arati_26/credentials"]
    }
