@@ -1,10 +1,5 @@
-variable "this_key_name" {
-   default = "" 
-
-}
-
 variable "this_ami" {
-   default = "ami-0eab37cfdc33e8e65" 
+   default = "ami-0e5497a77ef21b5ac" 
 }
 
 
@@ -12,7 +7,7 @@ variable "This_instance_type" {
     default  = "t2.micro"
 }
 
-variable "This_vpc_security_group_ids" {default = "sg-0efc868be83f601ce"}
+variable "This_vpc_security_group_ids" {default = "sg-076294234140703be"}
 
 variable "this_count" {
     default = 1
