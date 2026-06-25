@@ -28,6 +28,6 @@ variable "userlist" {
 
 output "aws_user_name" {
     #example of for loop
-    value =[for users in var.userlist:
-                aws_iam_userrb[users].name]
+    value =[ for users in var.userlist:
+                aws_iam_user.userrb[users].name]
 }
