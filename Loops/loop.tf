@@ -7,10 +7,10 @@ provider "aws" {
 
 resource "aws_instance" "webserver" {
    #example of count loop
-   key_name = 
-   ami =
-   instance_type = 
-   vpc_security_group_ids = 
+   key_name = "sample"
+   ami = "ami-08f44e8eca9095668 "
+   instance_type = "t3-micro"
+   vpc_security_group_ids = ["sg-0727b55b19685c100"]
    #count = 3
    
 
