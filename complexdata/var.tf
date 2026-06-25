@@ -18,7 +18,7 @@ variable "anyds" {
     default = {
         sg ="sg-051c13ca487ff9c4f" #string
         instcount = 1
-        apitterm =["True" ,"False"]
+        apitterm =["true" ,"false"]
         keymap = {
             key1 = "sample" ,
             key2 = "ohiokpb64"
