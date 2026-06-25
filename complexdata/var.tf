@@ -7,7 +7,7 @@ variable "amiid" {
 
 variable "instancetype" {
     default = {
-        instancetypemicro = "t3.micro"
+        instancetypemicro = "t2.micro"
         instancetypesmall = "t4.small"
 
     }
