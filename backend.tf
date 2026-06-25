@@ -23,7 +23,7 @@ resource "aws_instance" "webserver" {
    depends_on = [aws_security_group.webserversg] #explict dependency
    ami = var.this_ami 
    instance_type = var.This_instance_type
-   vpc_security_group_ids = [var.This_vpc_security_group_ids , aws_security_group.webserversg.id , data.aws_security_groups.defaultsg_search.id ]
+   vpc_security_group_ids = [var.This_vpc_security_group_ids ]
    #count = var.this_count
    
    disable_api_termination = var.this_disable_api_termination

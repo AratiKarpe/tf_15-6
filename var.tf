@@ -7,7 +7,7 @@ variable "This_instance_type" {
     default  = "t2.micro"
 }
 
-variable "This_vpc_security_group_ids" {default = "sg-076294234140703be"}
+variable "This_vpc_security_group_ids" {launch-wizard-2 = "sg-0c3878cd86dc51539"}
 
 variable "this_count" {
     default = 1
