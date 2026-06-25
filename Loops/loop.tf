@@ -18,7 +18,7 @@ resource "aws_instance" "webserver" {
 
 resource "aws_iam_user" "userrb" {
     #example of for_each loop
-    for_each = toset(var.uerlist)
+    for_each = toset(var.userlist)
     name = each.value
 }
 
