@@ -12,7 +12,7 @@ resource "aws_instance" "webserver" {
    instance_type = "t3-micro"
    subnet_id = "subnet-0bbc1df40f779980d"
 
-   vpc_security_group_ids = ["sg-0727b55b19685c100"]
+   vpc_security_group_ids = ["sg-0bd0c8397aace9b9a"]
    count = 3
    
 
