@@ -10,6 +10,8 @@ resource "aws_instance" "webserver" {
    key_name = "sample"
    ami = "ami-08f44e8eca9095668 "
    instance_type = "t3-micro"
+   subnet_id = "subnet-0bbc1df40f779980d"
+
    vpc_security_group_ids = ["sg-0727b55b19685c100"]
    count = 3
    
