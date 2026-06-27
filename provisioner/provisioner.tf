@@ -1,6 +1,6 @@
 provider "aws" {
-  region     = "ap-south-1"
-  profile  =  "default" 
+  region     = "us-east-1"
+  profile  =  "configs" 
 } 
 
 
